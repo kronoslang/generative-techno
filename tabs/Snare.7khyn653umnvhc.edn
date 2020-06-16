@@ -1,0 +1,78 @@
+{:identifier "Snare"
+ :identity "7khyn653umnvhc"
+ :patch
+{:cables
+{["0ta5zrqepc5vkt8" 0] [:fixed "gqh90j4aq8tr11p" 0]
+ ["0ta5zrqepc5vkt8" 1] [:fixed "3uda2i9use5w3t3" 0]
+ ["0ta5zrqepc5vkt8" 2] [:fixed "4qp6uxoueu2cuq8" 0]
+ ["1hbdg3p3l6gc086" 0] [:fixed "0ta5zrqepc5vkt8" 0]
+ ["1hbdg3p3l6gc086" 1] [:fixed "8pu4h09itb8x4ng" 0]
+ ["1hbdg3p3l6gc086" 2] [:fixed "8pu4h09itb8x4ng" 0]
+ ["1hbdg3p3l6gc086" 3] [:fixed "bpr6f4eugairqo9" 0]
+ ["8pu4h09itb8x4ng" 0] [:fixed "mijcghmgftjnote" 0]
+ ["gqh90j4aq8tr11p" 0] [:fixed "92fa11rz5e7f9qn" 0]}
+ :nodes
+{"0ta5zrqepc5vkt8" 
+{:inputs ["sig" "freq" "bw"]
+ :label "Filter:Resonator($sig $freq $bw)"
+ :outputs [""]
+ :parsed [:fn "Filter:Resonator" [:tuple [:free-var "sig"] [:free-var "freq"] [:free-var "bw"]]]
+ :pos [111 177]
+ :selected true}
+ "1hbdg3p3l6gc086" 
+{:ephemeral-inputs #{"more" "more2"}
+ :inputs ["a" "b" "more" "more2" "more..."]
+ :label "*"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more2"] [:free-var "more..."]]
+ :pos [368 160]
+ :selected true}
+ "3uda2i9use5w3t3" 
+{:inputs []
+ :label "340"
+ :outputs [""]
+ :parsed [:float "340"]
+ :pos [-36 111]
+ :selected true}
+ "4qp6uxoueu2cuq8" 
+{:inputs []
+ :label "2000"
+ :outputs [""]
+ :parsed [:float "2000"]
+ :pos [123 106]
+ :selected true}
+ "8pu4h09itb8x4ng" 
+{:inputs ["gate"]
+ :label "Envelope:AR($gate 0 0.5)"
+ :outputs [""]
+ :parsed [:fn "Envelope:AR" [:tuple [:free-var "gate"] [:float "0"] [:float "0.5"]]]
+ :pos [-135 52]
+ :selected true}
+ "92fa11rz5e7f9qn" 
+{:inputs []
+ :label "0.499d"
+ :outputs [""]
+ :parsed [:double "0.499"]
+ :pos [-415 134]
+ :selected true}
+ "bpr6f4eugairqo9" 
+{:inputs []
+ :label "2"
+ :outputs [""]
+ :parsed [:float "2"]
+ :pos [280 16]
+ :selected true}
+ "gqh90j4aq8tr11p" 
+{:inputs ["seed"]
+ :label "Gen:Noise($seed)"
+ :outputs [""]
+ :parsed [:fn "Gen:Noise" [:tuple [:free-var "seed"]]]
+ :pos [-193 138]
+ :selected true}
+ "mijcghmgftjnote" 
+{:eval :destructure
+ :inputs []
+ :label "(gate) = arg"
+ :outputs ["gate"]
+ :parsed "arg"
+ :pos [-468 -227]}}}}

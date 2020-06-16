@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "kronoslang/gadgets 0.1.1": {
+      "main": true
+    },
+    "kronoslang/virtual-analog 0.2.1": {
+      "main": true
+    }
+  },
+  "description": "",
+  "license": "https://www.eclipse.org/legal/epl-v10.html",
+  "version": "0.1",
+  "name": "generative-techno"
+}

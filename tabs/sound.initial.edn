@@ -1,0 +1,304 @@
+{:identifier "sound"
+ :identity "initial"
+ :patch
+{:cables
+{["192f5039i8r60jh" 0] [:fixed "564edpwwl48b1qo" 0]
+ ["192f5039i8r60jh" 1] [:fixed "4ik1ehc84tbgow9" 0]
+ ["50mj15xr53us77t" 0] [:fixed "j3eip6c4jhrbvhf" 0]
+ ["50mj15xr53us77t" 1] [:fixed "6rkryy5z44brkfr" 0]
+ ["50mj15xr53us77t" 2] [:fixed "muz8nd10hoo121y" 0]
+ ["50mj15xr53us77t" 3] [:fixed "566laldp5y2s9fh" 0]
+ ["50mj15xr53us77t" 4] [:fixed "nprhl8vsy4sc3op" 0]
+ ["566laldp5y2s9fh" 0] [:fixed "6xwr0vsenlcfd7f" 0]
+ ["566laldp5y2s9fh" 1] [:fixed "osz1i9fxge6z444" 0]
+ ["6if1o9usq2hgvaz" 0] [:fixed "smt2b42fv5t1aut" 0]
+ ["6if1o9usq2hgvaz" 1] [:fixed "e5ddqcnfmyv79ye" 0]
+ ["6xwr0vsenlcfd7f" 0] [:fixed "c3o52d2icbh9549" 0]
+ ["8rdpp51y6ls99p1" 0] [:fixed "564edpwwl48b1qo" 0]
+ ["8rdpp51y6ls99p1" 1] [:fixed "t3ye32cy8q83p8j" 0]
+ ["b2vvjkw7fbq63b2" 0] [:fixed "564edpwwl48b1qo" 0]
+ ["bf2udfatx1l23rt" 0] [:fixed "b2vvjkw7fbq63b2" 0]
+ ["bf2udfatx1l23rt" 1] [:fixed "x162h1c12ak92nf" 0]
+ ["c3o52d2icbh9549" 0] [:fixed "564edpwwl48b1qo" 0]
+ ["h28anxnkot72yyv" 0] [:fixed "8eqdzjthr2fr6dg" 0]
+ ["h28anxnkot72yyv" 1] [:fixed "c3o52d2icbh9549" 0]
+ ["j3eip6c4jhrbvhf" 0] [:fixed "c3o52d2icbh9549" 0]
+ ["j3eip6c4jhrbvhf" 1] [:fixed "3s4blsft67rfqyl" 0]
+ ["j655xt0tskf822" 0] [:fixed "x8b4of1h8sje2i2" 0]
+ ["kfhvtkvgx0uf86b" 0] [:fixed "6if1o9usq2hgvaz" 0]
+ ["muz8nd10hoo121y" 0] [:fixed "c3o52d2icbh9549" 0]
+ ["muz8nd10hoo121y" 1] [:fixed "lx48o3w5sx4oaah" 0]
+ ["muz8nd10hoo121y" 2] [:fixed "vlq2uy17byoy3lf" 0]
+ ["nprhl8vsy4sc3op" 0] [:fixed "sng5vq4p4qodx6e" 0]
+ ["nprhl8vsy4sc3op" 1] [:fixed "osz1i9fxge6z444" 0]
+ ["rjx8q9l7davcbt6" 0] [:fixed "50mj15xr53us77t" 0]
+ ["smt2b42fv5t1aut" 0] [:fixed "564edpwwl48b1qo" 0]
+ ["smt2b42fv5t1aut" 1] [:fixed "bf2udfatx1l23rt" 0]
+ ["sng5vq4p4qodx6e" 0] [:fixed "ujrazbmtp2t99wb" 0]
+ ["sng5vq4p4qodx6e" 1] [:fixed "ujrazbmtp2t99wb" 0]
+ ["sng5vq4p4qodx6e" 2] [:fixed "ujrazbmtp2t99wb" 0]
+ ["sng5vq4p4qodx6e" 3] [:fixed "ujrazbmtp2t99wb" 0]
+ ["sng5vq4p4qodx6e" 4] [:fixed "27trtggdbhxr1x" 0]
+ ["txybpn1d2bgzcx7" 0] [:fixed "192f5039i8r60jh" 0]
+ ["ujrazbmtp2t99wb" 0] [:fixed "c3o52d2icbh9549" 0]
+ ["vlq2uy17byoy3lf" 0] [:fixed "8rdpp51y6ls99p1" 0]
+ ["x8b4of1h8sje2i2" 0] [:fixed "txybpn1d2bgzcx7" 0]
+ ["x8b4of1h8sje2i2" 1] [:fixed "kfhvtkvgx0uf86b" 0]
+ ["x8b4of1h8sje2i2" 2] [:fixed "h28anxnkot72yyv" 0]
+ ["x8b4of1h8sje2i2" 3] [:fixed "rjx8q9l7davcbt6" 0]}
+ :nodes
+{"192f5039i8r60jh" 
+{:ephemeral-inputs #{"pat"}
+ :inputs ["bpm" "pat" "pat..."]
+ :label "Gadgets:Artikulator($bpm $pat...)"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
+ :pos [110 433]
+ }
+ "27trtggdbhxr1x" 
+{:inputs []
+ :label "2.7"
+ :name "max resonance"
+ :outputs [""]
+ :parsed [:float "2.7"]
+ :pos [331 -562]
+ :selected true}
+ "3s4blsft67rfqyl" 
+{:inputs []
+ :label "[0.3 0.3 0.6 0.2 0.1 0.9]"
+ :name "bassline phrasing"
+ :outputs [""]
+ :parsed [:list [:float "0.3"] [:float "0.3"] [:float "0.6"] [:float "0.2"] [:float "0.1"] [:float "0.9"]]
+ :pos [-316 -82]
+ }
+ "4ik1ehc84tbgow9" 
+{:inputs []
+ :label "[0 0.016]"
+ :outputs [""]
+ :parsed [:list [:float "0"] [:float "0.016"]]
+ :pos [-57 368]
+ }
+ "50mj15xr53us77t" 
+{:inputs ["gate" "freq" "steps" "a" "res"]
+ :label "BassLine"
+ :outputs [""]
+ :parsed [:fn "BassLine" [:tuple [:free-var "gate"] [:free-var "freq"] [:free-var "steps"] [:free-var "a"] [:free-var "res"]]]
+ :pos [250 57]
+ }
+ "564edpwwl48b1qo" 
+{:color 0
+ :inputs []
+ :label "120"
+ :outputs [""]
+ :parsed [:float "120"]
+ :pos [-584 -512]
+ }
+ "566laldp5y2s9fh" 
+{:inputs ["sig" "rate"]
+ :label "Control:Smooth($sig $rate)"
+ :outputs [""]
+ :parsed [:fn "Control:Smooth" [:tuple [:free-var "sig"] [:free-var "rate"]]]
+ :pos [273 -173]
+ }
+ "6if1o9usq2hgvaz" 
+{:ephemeral-inputs #{"pat"}
+ :inputs ["bpm" "pat" "pat..."]
+ :label "Gadgets:Artikulator($bpm $pat...)"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
+ :pos [56 298]
+ }
+ "6rkryy5z44brkfr" 
+{:inputs []
+ :label "27.5"
+ :outputs [""]
+ :parsed [:float "27.5"]
+ :pos [66 -23]
+ }
+ "6xwr0vsenlcfd7f" 
+{:inputs ["bpm"]
+ :label "Gadgets:Random-Seq($bpm 1 80 800)"
+ :name "bassline cutoff"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Random-Seq" [:tuple [:free-var "bpm"] [:float "1"] [:number-widget :float "6tpr9e" "76" ""] [:number-widget :float "-xm12jt" "3529" ""]]]
+ :pos [18 -304]
+ }
+ "8eqdzjthr2fr6dg" 
+{:inputs []
+ :label "[-5 2 5 7 10 15]"
+ :name "chord"
+ :outputs [""]
+ :parsed [:list [:float "-5"] [:float "2"] [:float "5"] [:float "7"] [:float "10"] [:float "15"]]
+ :pos [142 164]
+ }
+ "8rdpp51y6ls99p1" 
+{:ephemeral-inputs #{"pat"}
+ :inputs ["bpm" "pat" "pat..."]
+ :label "Gadgets:Pattern-Seq($bpm $pat...)"
+ :name "arpeggio variation"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Pattern-Seq" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
+ :pos [-401 -277]
+ }
+ "b2vvjkw7fbq63b2" 
+{:inputs ["a"]
+ :label "/ 2"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "/" [:float "2"]]
+ :pos [-452 240]
+ }
+ "bf2udfatx1l23rt" 
+{:cable-midpoints 
+{}
+ :ephemeral-inputs #{"pat"}
+ :inputs ["bpm" "pat" "pat..."]
+ :label "Gadgets:Pattern-Seq($bpm $pat...)"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Pattern-Seq" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
+ :pos [-296 240]
+ }
+ "c3o52d2icbh9549" 
+{:color 0
+ :inputs ["a"]
+ :label "* 4"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "*" [:float "4"]]
+ :pos [-467 -512]
+ }
+ "e5ddqcnfmyv79ye" 
+{:inputs []
+ :label "[0.016 0]"
+ :outputs [""]
+ :parsed [:list [:float "0.016"] [:float "0"]]
+ :pos [-132 200]
+ }
+ "h28anxnkot72yyv" 
+{:inputs ["set" "bpm"]
+ :label "Stab-Pad"
+ :outputs [""]
+ :parsed [:fn "Stab-Pad" [:tuple [:free-var "set"] [:free-var "bpm"]]]
+ :pos [360 252]
+ }
+ "j3eip6c4jhrbvhf" 
+{:ephemeral-inputs #{"pat"}
+ :inputs ["bpm" "pat" "pat..."]
+ :label "Gadgets:Artikulator($bpm $pat...)"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
+ :pos [-11 23]
+ }
+ "j655xt0tskf822" 
+{:inputs ["sig"]
+ :label "o))"
+ :outputs ["thru"]
+ :parsed [:playback [:free-var "sig"]]
+ :pos [348 553]
+ }
+ "kfhvtkvgx0uf86b" 
+{:inputs ["gate"]
+ :label "Kick"
+ :outputs [""]
+ :parsed [:fn "Kick" [:tuple [:free-var "gate"]]]
+ :pos [271 370]
+ }
+ "lx48o3w5sx4oaah" 
+{:inputs []
+ :label "2"
+ :outputs [""]
+ :parsed [:number-widget :float "ha4tsf" "4" ""]
+ :pos [-50 -140]
+ }
+ "muz8nd10hoo121y" 
+{:ephemeral-inputs #{"notes"}
+ :inputs ["bpm" "octaves" "notes" "notes..."]
+ :label "Gadgets:Arpeggiator($bpm $octaves $notes...)"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Arpeggiator" [:tuple [:free-var "bpm"] [:free-var "octaves"] [:free-var "notes"] [:free-var "notes..."]]]
+ :pos [67 -87]
+ }
+ "nprhl8vsy4sc3op" 
+{:inputs ["sig" "rate"]
+ :label "Control:Smooth($sig $rate)"
+ :outputs [""]
+ :parsed [:fn "Control:Smooth" [:tuple [:free-var "sig"] [:free-var "rate"]]]
+ :pos [546 -185]
+ }
+ "osz1i9fxge6z444" 
+{:inputs []
+ :label "10"
+ :name "bassline filter smoothing"
+ :outputs [""]
+ :parsed [:number-widget :float "rrgg0n" "117" ""]
+ :pos [245 -497]
+ }
+ "rjx8q9l7davcbt6" 
+{:inputs ["a"]
+ :label "Overdrive"
+ :outputs [""]
+ :parsed [:fn "Overdrive" [:tuple [:free-var "a"]]]
+ :pos [463 125]
+ }
+ "smt2b42fv5t1aut" 
+{:inputs ["a" "b" "more..."]
+ :label "*"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more..."]]
+ :pos [-87 297]
+ }
+ "sng5vq4p4qodx6e" 
+{:ephemeral-inputs #{"more" "more2" "more3"}
+ :inputs ["a" "b" "more" "more2" "more3" "more..."]
+ :label "*"
+ :name "resonance distribution"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more2"] [:free-var "more3"] [:free-var "more..."]]
+ :pos [411 -290]
+ }
+ "t3ye32cy8q83p8j" 
+{:inputs []
+ :label "[5 9 8 2 10]"
+ :outputs [""]
+ :parsed [:list [:float "5"] [:float "9"] [:number-widget :float "-ahnlgb" "3" ""] [:float "2"] [:float "10"]]
+ :pos [-495 -367]
+ }
+ "txybpn1d2bgzcx7" 
+{:inputs ["gate"]
+ :label "Snare"
+ :outputs [""]
+ :parsed [:fn "Snare" [:tuple [:free-var "gate"]]]
+ :pos [271 435]
+ }
+ "ujrazbmtp2t99wb" 
+{:inputs ["bpm"]
+ :label "Gadgets:Random-Seq($bpm 2 0 4)"
+ :name "bassline pwm and resonance"
+ :outputs [""]
+ :parsed [:fn "Gadgets:Random-Seq" [:tuple [:free-var "bpm"] [:float "2"] [:float "0"] [:number-widget :float "-b4ko64" "1" ""]]]
+ :pos [112 -398]
+ }
+ "vlq2uy17byoy3lf" 
+{:inputs ["x"]
+ :label "[0 3 5 $x 7 10 $x + 12 12]"
+ :name "arpeggio"
+ :outputs [""]
+ :parsed [:list [:float "0"] [:float "3"] [:float "5"] [:free-var "x"] [:float "7"] [:float "10"] [:infix [:free-var "x"] "+" [:float "12"]] [:float "12"]]
+ :pos [-121 -206]
+ }
+ "x162h1c12ak92nf" 
+{:inputs []
+ :label "[2 2 2 2 2 2 2 2 2 2 2 2 1 1 4 6]"
+ :name "kickdrum subdivisions"
+ :outputs [""]
+ :parsed [:list [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "1"] [:float "1"] [:float "4"] [:float "6"]]
+ :pos [-385 72]
+ }
+ "x8b4of1h8sje2i2" 
+{:ephemeral-inputs #{"numbers4" "numbers2" "numbers" "numbers3"}
+ :inputs ["numbers4" "numbers2" "numbers" "numbers3" "numbers..."]
+ :label "Average($numbers...)"
+ :outputs [""]
+ :parsed [:fn "Average" [:tuple [:free-var "numbers4"] [:free-var "numbers2"] [:free-var "numbers"] [:free-var "numbers3"] [:free-var "numbers..."]]]
+ :pos [431 391]
+ }}
+ :scale 0.9136859101568583
+ :scroll [0 0]}}
