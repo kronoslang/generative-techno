@@ -12,23 +12,23 @@ Brief() {
 }
 sound() {
 (nsng5vq4p4qodx6e-0) = (nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * n27trtggdbhxr1x-0)
-(n27trtggdbhxr1x-0) = 2.7
-(nosz1i9fxge6z444-0) = 117
+(n27trtggdbhxr1x-0) = 2.457
+(nosz1i9fxge6z444-0) = 55
 (nt3ye32cy8q83p8j-0) = [5 9 3 2 10]
 (n8rdpp51y6ls99p1-0) = Gadgets:Pattern-Seq(n564edpwwl48b1qo-0 nt3ye32cy8q83p8j-0 )
 (nx8b4of1h8sje2i2-0) = Average(ntxybpn1d2bgzcx7-0 nkfhvtkvgx0uf86b-0 nh28anxnkot72yyv-0 nrjx8q9l7davcbt6-0 )
 (nujrazbmtp2t99wb-0) = Gadgets:Random-Seq(nc3o52d2icbh9549-0 2 0 1)
 (nkfhvtkvgx0uf86b-0) = Kick(n6if1o9usq2hgvaz-0)
 (nvlq2uy17byoy3lf-0) = [0 3 5 n8rdpp51y6ls99p1-0 7 10 (n8rdpp51y6ls99p1-0 + 12) 12]
+(n3nc13rqp5i7d9jx-0) = Gadgets:Pattern-Seq(n564edpwwl48b1qo-0 nda1rajtmsc1gizy-0 )
 (n6rkryy5z44brkfr-0) = 27.5
 (n8eqdzjthr2fr6dg-0) = [-5 2 5 7 10 15]
 (ntxybpn1d2bgzcx7-0) = Snare(n192f5039i8r60jh-0)
 (nc3o52d2icbh9549-0) = (n564edpwwl48b1qo-0 * 4)
-(nlx48o3w5sx4oaah-0) = 4
 (nrjx8q9l7davcbt6-0) = Overdrive(n50mj15xr53us77t-0)
 (n564edpwwl48b1qo-0) = 120
 (nb2vvjkw7fbq63b2-0) = (n564edpwwl48b1qo-0 / 2)
-(nmuz8nd10hoo121y-0) = Gadgets:Arpeggiator(nc3o52d2icbh9549-0 nlx48o3w5sx4oaah-0 nvlq2uy17byoy3lf-0 )
+(nmuz8nd10hoo121y-0) = Gadgets:Arpeggiator(nc3o52d2icbh9549-0 n3nc13rqp5i7d9jx-0 nvlq2uy17byoy3lf-0 )
 (n566laldp5y2s9fh-0) = Control:Smooth(n6xwr0vsenlcfd7f-0 nosz1i9fxge6z444-0)
 (n3s4blsft67rfqyl-0) = [0.3 0.3 0.6 0.2 0.1 0.9]
 (nnprhl8vsy4sc3op-0) = Control:Smooth(nsng5vq4p4qodx6e-0 nosz1i9fxge6z444-0)
@@ -36,11 +36,12 @@ sound() {
 (nj3eip6c4jhrbvhf-0) = Gadgets:Artikulator(nc3o52d2icbh9549-0 n3s4blsft67rfqyl-0 )
 (nh28anxnkot72yyv-0) = Stab-Pad(n8eqdzjthr2fr6dg-0 nc3o52d2icbh9549-0)
 (nx162h1c12ak92nf-0) = [2 2 2 2 2 2 2 2 2 2 2 2 1 1 4 6]
+(nda1rajtmsc1gizy-0) = [2 2 2 2 2 2 3 3 4 4 5 7]
 (n6if1o9usq2hgvaz-0) = Gadgets:Artikulator(nsmt2b42fv5t1aut-0 ne5ddqcnfmyv79ye-0 )
 (n192f5039i8r60jh-0) = Gadgets:Artikulator(n564edpwwl48b1qo-0 n4ik1ehc84tbgow9-0 )
 (ne5ddqcnfmyv79ye-0) = [0.016 0]
 (nj655xt0tskf822-0) = nx8b4of1h8sje2i2-0
-(n6xwr0vsenlcfd7f-0) = Gadgets:Random-Seq(nc3o52d2icbh9549-0 1 76 3529)
+(n6xwr0vsenlcfd7f-0) = Gadgets:Random-Seq(nc3o52d2icbh9549-0 1 58 4157)
 (n4ik1ehc84tbgow9-0) = [0 0.016]
 (nsmt2b42fv5t1aut-0) = (n564edpwwl48b1qo-0 * nbf2udfatx1l23rt-0)
 (n50mj15xr53us77t-0) = BassLine(nj3eip6c4jhrbvhf-0 n6rkryy5z44brkfr-0 nmuz8nd10hoo121y-0 n566laldp5y2s9fh-0 nnprhl8vsy4sc3op-0)
@@ -76,24 +77,24 @@ n8h48h499osgk03r-0
 }
 
 Overdrive(a) {
-(npj3a0aai9bz0n78-0) = 6035
-(nw3ib84zf67yj6v0-0) = Approx:Tanh(nvxwdio4oykxe9ew-0)
+(n7ufk8e3b6wpib27-0) = 144
 (n9i1ka2b6ccs21r-0) = Filter:Resonator(nw3ib84zf67yj6v0-0 n7ufk8e3b6wpib27-0 npj3a0aai9bz0n78-0)
-(n7ufk8e3b6wpib27-0) = 302
-(nvxwdio4oykxe9ew-0) = (nj46dwwfj36c7ji-0 * 6)
 (nj46dwwfj36c7ji-0) = arg
+(npj3a0aai9bz0n78-0) = 2283
+(nvxwdio4oykxe9ew-0) = (nj46dwwfj36c7ji-0 * 11)
+(nw3ib84zf67yj6v0-0) = Approx:Tanh(nvxwdio4oykxe9ew-0)
 n9i1ka2b6ccs21r-0
 }
 
 Kick(gate) {
-(nc2x9g17m3ochz-0) = 24
-(nxipb57t8iw64gki-0) = Approx:Tanh(nec6384p25jtwrf-0)
 (n0xwz4t5pl3zd3jx-0) = Envelope:AR(ncsm4tf90kvmssjo-0 0 0.22291)
-(nec6384p25jtwrf-0) = (n8890hi2m1vd26q-0 * n0xwz4t5pl3zd3jx-0 * nc2x9g17m3ochz-0)
-(nxebzw1ihfifnfpw-0) = 245
 (n62nfxg7wuxwldf4-0) = (n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * nxebzw1ihfifnfpw-0)
 (n8890hi2m1vd26q-0) = Gen:Tri(n62nfxg7wuxwldf4-0)
+(nc2x9g17m3ochz-0) = 24
 (ncsm4tf90kvmssjo-0) = arg
+(nec6384p25jtwrf-0) = (n8890hi2m1vd26q-0 * n0xwz4t5pl3zd3jx-0 * nc2x9g17m3ochz-0)
+(nxebzw1ihfifnfpw-0) = 245
+(nxipb57t8iw64gki-0) = Approx:Tanh(nec6384p25jtwrf-0)
 nxipb57t8iw64gki-0
 }
 

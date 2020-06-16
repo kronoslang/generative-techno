@@ -12,44 +12,38 @@
 {:inputs []
  :label "500"
  :outputs [""]
- :parsed [:number-widget :float "bw3czr" "302" ""]
- :pos [14 -13]
- }
+ :parsed [:number-widget :float "bw3czr" "144" ""]
+ :pos [14 -13]}
  "9i1ka2b6ccs21r" 
 {:inputs ["sig" "freq" "bw"]
  :label "Filter:Resonator($sig $freq $bw)"
  :outputs [""]
  :parsed [:fn "Filter:Resonator" [:tuple [:free-var "sig"] [:free-var "freq"] [:free-var "bw"]]]
- :pos [146 43]
- }
+ :pos [146 43]}
  "j46dwwfj36c7ji" 
 {:eval :destructure
  :inputs []
  :label "(a) = arg"
  :outputs ["a"]
  :parsed "arg"
- :pos [-284 -102]
- }
+ :pos [-284 -102]}
  "pj3a0aai9bz0n78" 
 {:inputs []
  :label "900"
  :outputs [""]
- :parsed [:number-widget :float "73x7o2" "6035" ""]
- :pos [89 -65]
- }
+ :parsed [:number-widget :float "73x7o2" "2283" ""]
+ :pos [89 -65]}
  "vxwdio4oykxe9ew" 
 {:cable-midpoints 
 {}
  :inputs ["a"]
  :label "* 16"
  :outputs [""]
- :parsed [:infix [:free-var "a"] "*" [:number-widget :float "-d94off" "6" ""]]
- :pos [-143 43]
- }
+ :parsed [:infix [:free-var "a"] "*" [:number-widget :float "-d94off" "11" ""]]
+ :pos [-143 43]}
  "w3ib84zf67yj6v0" 
 {:inputs ["w"]
  :label "Approx:Tanh($w)"
  :outputs [""]
  :parsed [:fn "Approx:Tanh" [:tuple [:free-var "w"]]]
- :pos [2 43]
- }}}}
+ :pos [2 43]}}}}
