@@ -97,7 +97,7 @@ Stab-Pad(f0 notes bpm) {
 (nueshmtqvk87ca4g-0) = 0.3
 (nz9jei122xfal2l9-0) = Gen:Phasor(n8627hfzubgjs1d7-0)
 (n98rf0pmegzhkjbb-0) = Algorithm:Partition(nkn6xgr48g3qy5r1-0 nmbrs2ek57d9yh1f-0 )
-(nks55dpcomfxd3hc-0) = [(0.5 * nahf87jijhyqolw1-0) nahf87jijhyqolw1-0 (2 * nahf87jijhyqolw1-0)]
+(nks55dpcomfxd3hc-0) = [(2 * nahf87jijhyqolw1-0) nahf87jijhyqolw1-0 (0.5 * nahf87jijhyqolw1-0)]
 nd4xdfqgn9ohe1xj-0
 }
 

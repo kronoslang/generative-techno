@@ -193,9 +193,9 @@
  "ks55dpcomfxd3hc" 
 {:color 3
  :inputs ["x"]
- :label "[0.5 * $x $x 2 * $x]"
+ :label "[2 * $x $x 0.5 * $x]"
  :outputs [""]
- :parsed [:list [:infix [:float "0.5"] "*" [:free-var "x"]] [:free-var "x"] [:infix [:float "2"] "*" [:free-var "x"]]]
+ :parsed [:list [:infix [:float "2"] "*" [:free-var "x"]] [:free-var "x"] [:infix [:float "0.5"] "*" [:free-var "x"]]]
  :pos [-25 -188]
  }
  "lm1j9okqlz9drvi" 
