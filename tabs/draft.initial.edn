@@ -99,12 +99,12 @@
  }
  "3s4blsft67rfqyl" 
 {:inputs []
- :label "[0.3 0.3 0.6 0.2 0.1 0.9]"
+ :label "[0.3 0.3 0.6 0.2 0.1 1]"
  :name "bassline phrasing"
  :outputs [""]
- :parsed [:list [:float "0.3"] [:float "0.3"] [:float "0.6"] [:float "0.2"] [:float "0.1"] [:float "0.9"]]
+ :parsed [:list [:float "0.3"] [:float "0.3"] [:float "0.6"] [:float "0.2"] [:float "0.1"] [:float "1"]]
  :pos [-365 105]
- }
+ :selected true}
  "4ik1ehc84tbgow9" 
 {:color 3
  :inputs []
@@ -270,7 +270,7 @@
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
  :pos [505 140]
- :selected true}
+ }
  "kfhvtkvgx0uf86b" 
 {:color 2
  :inputs ["gate"]
