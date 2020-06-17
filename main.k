@@ -13,7 +13,7 @@ Brief() {
 sound() {
 (nsng5vq4p4qodx6e-0) = (nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * n27trtggdbhxr1x-0)
 (n27trtggdbhxr1x-0) = 2.457
-(nosz1i9fxge6z444-0) = 55
+(nosz1i9fxge6z444-0) = 375
 (nt3ye32cy8q83p8j-0) = [5 9 3 2 10]
 (n8rdpp51y6ls99p1-0) = Gadgets:Pattern-Seq(n564edpwwl48b1qo-0 nt3ye32cy8q83p8j-0 )
 (nx8b4of1h8sje2i2-0) = Average(ntxybpn1d2bgzcx7-0 nkfhvtkvgx0uf86b-0 nh28anxnkot72yyv-0 nrjx8q9l7davcbt6-0 )
@@ -26,7 +26,7 @@ sound() {
 (ntxybpn1d2bgzcx7-0) = Snare(n192f5039i8r60jh-0)
 (nc3o52d2icbh9549-0) = (n564edpwwl48b1qo-0 * 4)
 (nrjx8q9l7davcbt6-0) = Overdrive(n50mj15xr53us77t-0)
-(n564edpwwl48b1qo-0) = 120
+(n564edpwwl48b1qo-0) = 104
 (nb2vvjkw7fbq63b2-0) = (n564edpwwl48b1qo-0 / 2)
 (nmuz8nd10hoo121y-0) = Gadgets:Arpeggiator(nc3o52d2icbh9549-0 n3nc13rqp5i7d9jx-0 nvlq2uy17byoy3lf-0 )
 (n566laldp5y2s9fh-0) = Control:Smooth(n6xwr0vsenlcfd7f-0 nosz1i9fxge6z444-0)
@@ -39,10 +39,10 @@ sound() {
 (nda1rajtmsc1gizy-0) = [2 2 2 2 2 2 3 3 4 4 5 7]
 (n6if1o9usq2hgvaz-0) = Gadgets:Artikulator(nsmt2b42fv5t1aut-0 ne5ddqcnfmyv79ye-0 )
 (n192f5039i8r60jh-0) = Gadgets:Artikulator(n564edpwwl48b1qo-0 n4ik1ehc84tbgow9-0 )
-(ne5ddqcnfmyv79ye-0) = [0.016 0]
+(ne5ddqcnfmyv79ye-0) = [1 0]
 (nj655xt0tskf822-0) = nx8b4of1h8sje2i2-0
 (n6xwr0vsenlcfd7f-0) = Gadgets:Random-Seq(nc3o52d2icbh9549-0 1 58 4157)
-(n4ik1ehc84tbgow9-0) = [0 0.016]
+(n4ik1ehc84tbgow9-0) = [0 1]
 (nsmt2b42fv5t1aut-0) = (n564edpwwl48b1qo-0 * nbf2udfatx1l23rt-0)
 (n50mj15xr53us77t-0) = BassLine(nj3eip6c4jhrbvhf-0 n6rkryy5z44brkfr-0 nmuz8nd10hoo121y-0 n566laldp5y2s9fh-0 nnprhl8vsy4sc3op-0)
 nj655xt0tskf822-0
@@ -50,13 +50,15 @@ nj655xt0tskf822-0
 
 Snare(gate) {
 (n3uda2i9use5w3t3-0) = 340
+(nvshiean53oi72yh-0) = Control:Edge+(nmijcghmgftjnote-0)
 (ngqh90j4aq8tr11p-0) = Gen:Noise(n92fa11rz5e7f9qn-0)
-(n8pu4h09itb8x4ng-0) = Envelope:AR(nmijcghmgftjnote-0 0 0.5)
+(n8pu4h09itb8x4ng-0) = Envelope:AR(nmxvl1e9sivll2r1-0 0 0.5)
 (n4qp6uxoueu2cuq8-0) = 2000
 (nmijcghmgftjnote-0) = arg
 (n0ta5zrqepc5vkt8-0) = Filter:Resonator(ngqh90j4aq8tr11p-0 n3uda2i9use5w3t3-0 n4qp6uxoueu2cuq8-0)
 (n1hbdg3p3l6gc086-0) = (n0ta5zrqepc5vkt8-0 * n8pu4h09itb8x4ng-0 * n8pu4h09itb8x4ng-0 * nbpr6f4eugairqo9-0)
 (n92fa11rz5e7f9qn-0) = 0.499d
+(nmxvl1e9sivll2r1-0) = (nvshiean53oi72yh-0 & 1)
 (nbpr6f4eugairqo9-0) = 2
 n1hbdg3p3l6gc086-0
 }
@@ -87,14 +89,16 @@ n9i1ka2b6ccs21r-0
 }
 
 Kick(gate) {
-(n0xwz4t5pl3zd3jx-0) = Envelope:AR(ncsm4tf90kvmssjo-0 0 0.22291)
-(n62nfxg7wuxwldf4-0) = (n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * nxebzw1ihfifnfpw-0)
-(n8890hi2m1vd26q-0) = Gen:Tri(n62nfxg7wuxwldf4-0)
 (nc2x9g17m3ochz-0) = 24
-(ncsm4tf90kvmssjo-0) = arg
+(n88afwrfcpf872n6-0) = Control:Edge+(ncsm4tf90kvmssjo-0)
+(nxipb57t8iw64gki-0) = Approx:Tanh(nec6384p25jtwrf-0)
+(n0xwz4t5pl3zd3jx-0) = Envelope:AR(nx5c8vwyms47p5qg-0 0 0.22291)
 (nec6384p25jtwrf-0) = (n8890hi2m1vd26q-0 * n0xwz4t5pl3zd3jx-0 * nc2x9g17m3ochz-0)
 (nxebzw1ihfifnfpw-0) = 245
-(nxipb57t8iw64gki-0) = Approx:Tanh(nec6384p25jtwrf-0)
+(n62nfxg7wuxwldf4-0) = (n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * nxebzw1ihfifnfpw-0)
+(nx5c8vwyms47p5qg-0) = (n88afwrfcpf872n6-0 & 1)
+(n8890hi2m1vd26q-0) = Gen:Tri(n62nfxg7wuxwldf4-0)
+(ncsm4tf90kvmssjo-0) = arg
 nxipb57t8iw64gki-0
 }
 

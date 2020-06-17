@@ -2,7 +2,7 @@
  :identity "ce764668qqc8a5c"
  :patch
 {:cables
-{["0xwz4t5pl3zd3jx" 0] [:fixed "csm4tf90kvmssjo" 0]
+{["0xwz4t5pl3zd3jx" 0] [:fixed "x5c8vwyms47p5qg" 0]
  ["62nfxg7wuxwldf4" 0] [:fixed "0xwz4t5pl3zd3jx" 0]
  ["62nfxg7wuxwldf4" 1] [:fixed "0xwz4t5pl3zd3jx" 0]
  ["62nfxg7wuxwldf4" 2] [:fixed "0xwz4t5pl3zd3jx" 0]
@@ -10,9 +10,11 @@
  ["62nfxg7wuxwldf4" 4] [:fixed "0xwz4t5pl3zd3jx" 0]
  ["62nfxg7wuxwldf4" 5] [:fixed "xebzw1ihfifnfpw" 0]
  ["8890hi2m1vd26q" 0] [:fixed "62nfxg7wuxwldf4" 0]
+ ["88afwrfcpf872n6" 0] [:fixed "csm4tf90kvmssjo" 0]
  ["ec6384p25jtwrf" 0] [:fixed "8890hi2m1vd26q" 0]
  ["ec6384p25jtwrf" 1] [:fixed "0xwz4t5pl3zd3jx" 0]
  ["ec6384p25jtwrf" 2] [:fixed "c2x9g17m3ochz" 0]
+ ["x5c8vwyms47p5qg" 0] [:fixed "88afwrfcpf872n6" 0]
  ["xipb57t8iw64gki" 0] [:fixed "ec6384p25jtwrf" 0]}
  :nodes
 {"0xwz4t5pl3zd3jx" 
@@ -35,6 +37,13 @@
  :outputs [""]
  :parsed [:fn "Gen:Tri" [:tuple [:free-var "freq"]]]
  :pos [99 77]}
+ "88afwrfcpf872n6" 
+{:inputs ["sig"]
+ :label "Control:Edge+($sig)"
+ :outputs [""]
+ :parsed [:fn "Control:Edge+" [:tuple [:free-var "sig"]]]
+ :pos [-342 -168]
+ :selected "88afwrfcpf872n6"}
  "c2x9g17m3ochz" 
 {:inputs []
  :label "8"
@@ -56,6 +65,13 @@
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more..."]]
  :pos [244 77]}
+ "x5c8vwyms47p5qg" 
+{:inputs ["a"]
+ :label "& 1"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "&" [:float "1"]]
+ :pos [-207 -155]
+ :selected "x5c8vwyms47p5qg"}
  "xebzw1ihfifnfpw" 
 {:inputs []
  :label "300"
