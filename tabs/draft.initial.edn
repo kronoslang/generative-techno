@@ -270,7 +270,7 @@
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
  :pos [505 140]
- }
+ :selected true}
  "kfhvtkvgx0uf86b" 
 {:color 2
  :inputs ["gate"]

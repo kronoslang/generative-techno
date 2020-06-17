@@ -109,7 +109,7 @@
 {:inputs []
  :label "1.2"
  :outputs [""]
- :parsed [:float "1.2"]
+ :parsed [:number-widget :float "-qr34v2" "3.7611" ""]
  :pos [-520 -196]
  }
  "98rf0pmegzhkjbb" 
@@ -149,7 +149,7 @@
  :inputs []
  :label "0.1"
  :outputs [""]
- :parsed [:float "0.1"]
+ :parsed [:number-widget :float "5szsb8" "0.050738" ""]
  :pos [-55 -20]
  }
  "d4xdfqgn9ohe1xj" 

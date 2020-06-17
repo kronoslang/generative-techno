@@ -90,8 +90,8 @@ Stab-Pad(f0 notes bpm) {
 (npr9aovbznnga04p-0) = (elements) => ( Vector:Cons(elements) ) 
 (nvs65im1wps348ef-0) = 0.04
 (nr6pp0gmihaiyyi0-0) = Gen:Tri(nccto4o5yx9y758t-0)
-(n8627hfzubgjs1d7-0) = 1.2
-(nccto4o5yx9y758t-0) = 0.1
+(n8627hfzubgjs1d7-0) = 3.7611
+(nccto4o5yx9y758t-0) = 0.050738
 (nmbrs2ek57d9yh1f-0) = Algorithm:Map(n52j1zswh9nxlcc2-0 nmcv0mr79gyldj4q-1 )
 (nt8i64toua7qh553-0) = (nr6pp0gmihaiyyi0-0 * 1216)
 (nueshmtqvk87ca4g-0) = 0.3
