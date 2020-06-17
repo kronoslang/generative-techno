@@ -12,4 +12,4 @@
  :license "https://www.eclipse.org/legal/epl-v10.html"
  :name "generative-techno"
  :version "0.1"}
- :tabs ("tabs/sound.initial.edn" "tabs/Snare.7khyn653umnvhc.edn" "tabs/BassLine.86evk37toikdal9.edn" "tabs/Overdrive.erb0ssdn1m99dgn.edn" "tabs/Kick.ce764668qqc8a5c.edn" "tabs/Stab-Pad.e9rc5ap8q4tnfrt.edn")}
+ :tabs ("tabs/draft.initial.edn" "tabs/Snare.7khyn653umnvhc.edn" "tabs/BassLine.86evk37toikdal9.edn" "tabs/Overdrive.erb0ssdn1m99dgn.edn" "tabs/Kick.ce764668qqc8a5c.edn" "tabs/Stab-Pad.e9rc5ap8q4tnfrt.edn")}

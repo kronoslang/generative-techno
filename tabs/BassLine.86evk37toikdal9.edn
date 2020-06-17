@@ -24,8 +24,8 @@
  :label "Gadgets:Semitone->Freq($freq $steps)"
  :outputs [""]
  :parsed [:fn "Gadgets:Semitone->Freq" [:tuple [:free-var "freq"] [:free-var "steps"]]]
- :pos [-187 -55]
- :selected true}
+ :pos [-136 -24]
+ }
  "3pdkwkqjqe2o9fj" 
 {:ephemeral-inputs #{"more"}
  :flip-y true
@@ -34,7 +34,7 @@
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more..."]]
  :pos [209 -48]
- :selected true}
+ }
  "4v4rie86zd25ekv" 
 {:flip-y true
  :inputs ["a" "b" "more..."]
@@ -42,60 +42,63 @@
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more..."]]
  :pos [305 -130]
- :selected true}
+ }
  "8h48h499osgk03r" 
 {:inputs ["sig" "fc" "res"]
  :label "Virtual-Analog:Moog-VCF($sig $fc $res)"
  :outputs [""]
  :parsed [:fn "Virtual-Analog:Moog-VCF" [:tuple [:free-var "sig"] [:free-var "fc"] [:free-var "res"]]]
  :pos [419 -46]
- :selected true}
+ }
  "bll4bqiw9krakg" 
 {:inputs ["freq"]
  :label "Gen:Phasor($freq)"
  :outputs [""]
  :parsed [:fn "Gen:Phasor" [:tuple [:free-var "freq"]]]
  :pos [-105 -235]
- :selected true}
+ }
  "bxh9ih9wk7p63id" 
-{:eval :destructure
+{:color 0
+ :eval :destructure
  :inputs []
  :label "(gate freq steps a res) = arg"
  :outputs ["gate" "freq" "steps" "a" "res"]
  :parsed "arg"
- :pos [-519 193]}
+ :pos [-435 -167]
+ }
  "d6lvflr685u43sj" 
 {:inputs ["freq" "width" "waveform"]
  :label "Virtual-Analog:BLIT-Osc($freq $width $waveform)"
+ :name "PWM"
  :outputs [""]
  :parsed [:fn "Virtual-Analog:BLIT-Osc" [:tuple [:free-var "freq"] [:free-var "width"] [:free-var "waveform"]]]
- :pos [23 -121]
- :selected true}
+ :pos [50 -81]
+ }
  "dme8gzb8inrc5zg" 
 {:inputs []
  :label "0.24"
  :outputs [""]
  :parsed [:number-widget :float "476pfi" "0.059452" ""]
  :pos [-281 -243]
- :selected true}
+ }
  "mcsb5795k79n0h3" 
 {:inputs []
  :label "#-1"
  :outputs [""]
  :parsed [:invariant "-1"]
  :pos [11 -235]
- :selected true}
+ }
  "p7ye36cug3fh4ny" 
 {:inputs ["gate"]
  :label "Envelope:AR($gate 0.00231 0.14242)"
  :outputs [""]
  :parsed [:fn "Envelope:AR" [:tuple [:free-var "gate"] [:number-widget :float "32b65g" "0.00231" ""] [:number-widget :float "4700d3" "0.14242" ""]]]
- :pos [-115 118]
- :selected true}
+ :pos [-105 59]
+ }
  "rn47z0fvripg66s" 
 {:inputs ["a"]
  :label "+ 0.15"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "+" [:float "0.15"]]
  :pos [229 120]
- :selected true}}}}
+ }}}}

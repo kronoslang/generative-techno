@@ -10,43 +10,7 @@ Brief() {
 ;; 
  nil
 }
-sound() {
-(nsng5vq4p4qodx6e-0) = (nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * nujrazbmtp2t99wb-0 * n27trtggdbhxr1x-0)
-(n27trtggdbhxr1x-0) = 2.457
-(nosz1i9fxge6z444-0) = 375
-(nt3ye32cy8q83p8j-0) = [5 9 3 2 10]
-(n8rdpp51y6ls99p1-0) = Gadgets:Pattern-Seq(n564edpwwl48b1qo-0 nt3ye32cy8q83p8j-0 )
-(nx8b4of1h8sje2i2-0) = Average(ntxybpn1d2bgzcx7-0 nkfhvtkvgx0uf86b-0 nh28anxnkot72yyv-0 nrjx8q9l7davcbt6-0 )
-(nujrazbmtp2t99wb-0) = Gadgets:Random-Seq(nc3o52d2icbh9549-0 2 0 1)
-(nkfhvtkvgx0uf86b-0) = Kick(n6if1o9usq2hgvaz-0)
-(nvlq2uy17byoy3lf-0) = [0 3 5 n8rdpp51y6ls99p1-0 7 10 (n8rdpp51y6ls99p1-0 + 12) 12]
-(n3nc13rqp5i7d9jx-0) = Gadgets:Pattern-Seq(n564edpwwl48b1qo-0 nda1rajtmsc1gizy-0 )
-(n6rkryy5z44brkfr-0) = 27.5
-(n8eqdzjthr2fr6dg-0) = [-5 2 5 7 10 15]
-(ntxybpn1d2bgzcx7-0) = Snare(n192f5039i8r60jh-0)
-(nc3o52d2icbh9549-0) = (n564edpwwl48b1qo-0 * 4)
-(nrjx8q9l7davcbt6-0) = Overdrive(n50mj15xr53us77t-0)
-(n564edpwwl48b1qo-0) = 104
-(nb2vvjkw7fbq63b2-0) = (n564edpwwl48b1qo-0 / 2)
-(nmuz8nd10hoo121y-0) = Gadgets:Arpeggiator(nc3o52d2icbh9549-0 n3nc13rqp5i7d9jx-0 nvlq2uy17byoy3lf-0 )
-(n566laldp5y2s9fh-0) = Control:Smooth(n6xwr0vsenlcfd7f-0 nosz1i9fxge6z444-0)
-(n3s4blsft67rfqyl-0) = [0.3 0.3 0.6 0.2 0.1 0.9]
-(nnprhl8vsy4sc3op-0) = Control:Smooth(nsng5vq4p4qodx6e-0 nosz1i9fxge6z444-0)
-(nbf2udfatx1l23rt-0) = Gadgets:Pattern-Seq(nb2vvjkw7fbq63b2-0 nx162h1c12ak92nf-0 )
-(nj3eip6c4jhrbvhf-0) = Gadgets:Artikulator(nc3o52d2icbh9549-0 n3s4blsft67rfqyl-0 )
-(nh28anxnkot72yyv-0) = Stab-Pad(n8eqdzjthr2fr6dg-0 nc3o52d2icbh9549-0)
-(nx162h1c12ak92nf-0) = [2 2 2 2 2 2 2 2 2 2 2 2 1 1 4 6]
-(nda1rajtmsc1gizy-0) = [2 2 2 2 2 2 3 3 4 4 5 7]
-(n6if1o9usq2hgvaz-0) = Gadgets:Artikulator(nsmt2b42fv5t1aut-0 ne5ddqcnfmyv79ye-0 )
-(n192f5039i8r60jh-0) = Gadgets:Artikulator(n564edpwwl48b1qo-0 n4ik1ehc84tbgow9-0 )
-(ne5ddqcnfmyv79ye-0) = [1 0]
-(nj655xt0tskf822-0) = nx8b4of1h8sje2i2-0
-(n6xwr0vsenlcfd7f-0) = Gadgets:Random-Seq(nc3o52d2icbh9549-0 1 58 4157)
-(n4ik1ehc84tbgow9-0) = [0 1]
-(nsmt2b42fv5t1aut-0) = (n564edpwwl48b1qo-0 * nbf2udfatx1l23rt-0)
-(n50mj15xr53us77t-0) = BassLine(nj3eip6c4jhrbvhf-0 n6rkryy5z44brkfr-0 nmuz8nd10hoo121y-0 n566laldp5y2s9fh-0 nnprhl8vsy4sc3op-0)
-nj655xt0tskf822-0
-}
+
 
 Snare(gate) {
 (n3uda2i9use5w3t3-0) = 340
@@ -102,34 +66,33 @@ Kick(gate) {
 nxipb57t8iw64gki-0
 }
 
-Stab-Pad(set bpm) {
+Stab-Pad(f0 notes bpm) {
 (n5gyraa2sw49h1h5-0) = 0.001
 (n52j1zswh9nxlcc2-0) = Function:Pipeline(n3702995x9c128cd-0 n72yqbf6tace51uc-0 )
 (n767hdt885wv12wg-0) = (list) => ( Apply(npr9aovbznnga04p-0 list) ) 
-(nmcv0mr79gyldj4q-0 nmcv0mr79gyldj4q-1) = arg
+(nmcv0mr79gyldj4q-0 nmcv0mr79gyldj4q-1 nmcv0mr79gyldj4q-2) = arg
 (neiwn2f42azcim5x-0) = Gen:Tri(nvs65im1wps348ef-0)
 (nlm1j9okqlz9drvi-0) = (nt8i64toua7qh553-0 + 1394)
 (npgjgwv2ubtid8i4-0) = Average(nogbdjd6fn4p51id-0 )
 (ndla9oe4i3qo0ost-0) = Filter:Highpass(npgjgwv2ubtid8i4-0 nlm1j9okqlz9drvi-0 nff5hrpk4ln8vbm1-0)
 (nahf87jijhyqolw1-0) = (nbzrrgarr1wqvqr-0 + 0.5)
 (nd4xdfqgn9ohe1xj-0) = (ndla9oe4i3qo0ost-0 * nretd4ittm1u8b8r-0 * nueshmtqvk87ca4g-0)
-(nv1mpiigamt6l990-0) = 440
 (ncb09a1ek685bcdy-0) = 1
 (nretd4ittm1u8b8r-0) = Envelope:AR(n2lt7t8xuu32bf1a-0 n5gyraa2sw49h1h5-0 nn9ecmvc9ih4qz5n-0)
-(n2lt7t8xuu32bf1a-0) = Gadgets:Artikulator(nmcv0mr79gyldj4q-1 nks55dpcomfxd3hc-0 )
+(n2lt7t8xuu32bf1a-0) = Gadgets:Artikulator(nmcv0mr79gyldj4q-2 nks55dpcomfxd3hc-0 )
 (n72yqbf6tace51uc-0) = (freq) => ( Virtual-Analog:BLIT-Osc(freq nz9jei122xfal2l9-0 ncb09a1ek685bcdy-0) ) 
 (nn9ecmvc9ih4qz5n-0) = 0.1
 (nogbdjd6fn4p51id-0) = Algorithm:Map(n767hdt885wv12wg-0 n98rf0pmegzhkjbb-0 )
 (nbzrrgarr1wqvqr-0) = (neiwn2f42azcim5x-0 * 0.5)
 (nkn6xgr48g3qy5r1-0) = #2
-(n3702995x9c128cd-0) = (steps) => ( Gadgets:Semitone->Freq(nv1mpiigamt6l990-0 steps) ) 
+(n3702995x9c128cd-0) = (steps) => ( Gadgets:Semitone->Freq(nmcv0mr79gyldj4q-0 steps) ) 
 (nff5hrpk4ln8vbm1-0) = 0.95
 (npr9aovbznnga04p-0) = (elements) => ( Vector:Cons(elements) ) 
 (nvs65im1wps348ef-0) = 0.04
 (nr6pp0gmihaiyyi0-0) = Gen:Tri(nccto4o5yx9y758t-0)
 (n8627hfzubgjs1d7-0) = 1.2
 (nccto4o5yx9y758t-0) = 0.1
-(nmbrs2ek57d9yh1f-0) = Algorithm:Map(n52j1zswh9nxlcc2-0 nmcv0mr79gyldj4q-0 )
+(nmbrs2ek57d9yh1f-0) = Algorithm:Map(n52j1zswh9nxlcc2-0 nmcv0mr79gyldj4q-1 )
 (nt8i64toua7qh553-0) = (nr6pp0gmihaiyyi0-0 * 1216)
 (nueshmtqvk87ca4g-0) = 0.3
 (nz9jei122xfal2l9-0) = Gen:Phasor(n8627hfzubgjs1d7-0)
