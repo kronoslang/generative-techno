@@ -192,7 +192,7 @@
  :label "1 .o 4"
  :name "overdrive the bass!"
  :outputs [""]
- :parsed [:widget "p54j1j" 0.155 {:type :dial, :skin :circular, :min [:float "1"], :max [:float "4"]}]
+ :parsed [:widget "p54j1j" 0.05999999999999994 {:type :dial, :skin :circular, :min [:float "1"], :max [:float "4"]}]
  :pos [402 222]
  }
  "b159qbeg66thu77" 

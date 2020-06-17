@@ -53,12 +53,12 @@ n9i1ka2b6ccs21r-0
 }
 
 Kick(gate) {
-(nc2x9g17m3ochz-0) = 24
+(nc2x9g17m3ochz-0) = 25
 (n88afwrfcpf872n6-0) = Control:Edge+(ncsm4tf90kvmssjo-0)
 (nxipb57t8iw64gki-0) = Approx:Tanh(nec6384p25jtwrf-0)
-(n0xwz4t5pl3zd3jx-0) = Envelope:AR(nx5c8vwyms47p5qg-0 0 0.22291)
+(n0xwz4t5pl3zd3jx-0) = Envelope:AR(nx5c8vwyms47p5qg-0 0 0.28709)
 (nec6384p25jtwrf-0) = (n8890hi2m1vd26q-0 * n0xwz4t5pl3zd3jx-0 * nc2x9g17m3ochz-0)
-(nxebzw1ihfifnfpw-0) = 245
+(nxebzw1ihfifnfpw-0) = 201
 (n62nfxg7wuxwldf4-0) = (n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * n0xwz4t5pl3zd3jx-0 * nxebzw1ihfifnfpw-0)
 (nx5c8vwyms47p5qg-0) = (n88afwrfcpf872n6-0 & 1)
 (n8890hi2m1vd26q-0) = Gen:Tri(n62nfxg7wuxwldf4-0)
