@@ -13,17 +13,17 @@ Brief() {
 
 
 Snare(gate) {
-(n3uda2i9use5w3t3-0) = 340
+(n3uda2i9use5w3t3-0) = 689
 (nvshiean53oi72yh-0) = Control:Edge+(nmijcghmgftjnote-0)
 (ngqh90j4aq8tr11p-0) = Gen:Noise(n92fa11rz5e7f9qn-0)
 (n8pu4h09itb8x4ng-0) = Envelope:AR(nmxvl1e9sivll2r1-0 0 0.5)
-(n4qp6uxoueu2cuq8-0) = 2000
+(n4qp6uxoueu2cuq8-0) = 388
 (nmijcghmgftjnote-0) = arg
 (n0ta5zrqepc5vkt8-0) = Filter:Resonator(ngqh90j4aq8tr11p-0 n3uda2i9use5w3t3-0 n4qp6uxoueu2cuq8-0)
 (n1hbdg3p3l6gc086-0) = (n0ta5zrqepc5vkt8-0 * n8pu4h09itb8x4ng-0 * n8pu4h09itb8x4ng-0 * nbpr6f4eugairqo9-0)
 (n92fa11rz5e7f9qn-0) = 0.499d
 (nmxvl1e9sivll2r1-0) = (nvshiean53oi72yh-0 & 1)
-(nbpr6f4eugairqo9-0) = 2
+(nbpr6f4eugairqo9-0) = 5.217
 n1hbdg3p3l6gc086-0
 }
 
@@ -42,13 +42,13 @@ BassLine(gate freq steps a res) {
 n8h48h499osgk03r-0
 }
 
-Overdrive(a) {
-(n7ufk8e3b6wpib27-0) = 144
+Overdrive(sig drive) {
+(n7ufk8e3b6wpib27-0) = 77
 (n9i1ka2b6ccs21r-0) = Filter:Resonator(nw3ib84zf67yj6v0-0 n7ufk8e3b6wpib27-0 npj3a0aai9bz0n78-0)
-(nj46dwwfj36c7ji-0) = arg
-(npj3a0aai9bz0n78-0) = 2283
-(nvxwdio4oykxe9ew-0) = (nj46dwwfj36c7ji-0 * 11)
-(nw3ib84zf67yj6v0-0) = Approx:Tanh(nvxwdio4oykxe9ew-0)
+(nj46dwwfj36c7ji-0 nj46dwwfj36c7ji-1) = arg
+(npj3a0aai9bz0n78-0) = 2318
+(nw3ib84zf67yj6v0-0) = Approx:Tanh(ny9zdu8sz850a08k-0)
+(ny9zdu8sz850a08k-0) = (nj46dwwfj36c7ji-1 * nj46dwwfj36c7ji-0)
 n9i1ka2b6ccs21r-0
 }
 

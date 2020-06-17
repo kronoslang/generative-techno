@@ -33,14 +33,14 @@
 {:inputs []
  :label "340"
  :outputs [""]
- :parsed [:float "340"]
+ :parsed [:number-widget :float "-9183oi" "689" ""]
  :pos [-36 111]
  }
  "4qp6uxoueu2cuq8" 
 {:inputs []
  :label "2000"
  :outputs [""]
- :parsed [:float "2000"]
+ :parsed [:number-widget :float "fp23bp" "388" ""]
  :pos [123 106]
  }
  "8pu4h09itb8x4ng" 
@@ -59,11 +59,11 @@
  }
  "bpr6f4eugairqo9" 
 {:inputs []
- :label "2"
+ :label "5.0"
  :outputs [""]
- :parsed [:float "2"]
+ :parsed [:number-widget :float "-h06uk3" "5.217" ""]
  :pos [280 16]
- }
+ :selected true}
  "gqh90j4aq8tr11p" 
 {:inputs ["seed"]
  :label "Gen:Noise($seed)"

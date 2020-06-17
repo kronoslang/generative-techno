@@ -16,6 +16,9 @@
  ["6if1o9usq2hgvaz" 0] [:fixed "smt2b42fv5t1aut" 0]
  ["6if1o9usq2hgvaz" 1] [:fixed "e5ddqcnfmyv79ye" 0]
  ["6xwr0vsenlcfd7f" 0] [:fixed "c3o52d2icbh9549" 0]
+ ["83vmuabbylha6m4" 0] [:fixed "9qp8v319a4ae746" 0]
+ ["83vmuabbylha6m4" 1] [:fixed "9qp8v319a4ae746" 0]
+ ["83vmuabbylha6m4" 2] [:fixed "9qp8v319a4ae746" 0]
  ["8hjd269pf4xt3ha" 0] [:fixed "b159qbeg66thu77" 0]
  ["8hjd269pf4xt3ha" 1] [:fixed "8eqdzjthr2fr6dg" 0]
  ["8hjd269pf4xt3ha" 2] [:fixed "c3o52d2icbh9549" 0]
@@ -25,6 +28,8 @@
  ["bf2udfatx1l23rt" 0] [:fixed "b2vvjkw7fbq63b2" 0]
  ["bf2udfatx1l23rt" 1] [:fixed "x162h1c12ak92nf" 0]
  ["c3o52d2icbh9549" 0] [:fixed "564edpwwl48b1qo" 0]
+ ["fezaqdl619hkrkj" 0] [:fixed "50mj15xr53us77t" 0]
+ ["fezaqdl619hkrkj" 1] [:fixed "83vmuabbylha6m4" 0]
  ["j3eip6c4jhrbvhf" 0] [:fixed "c3o52d2icbh9549" 0]
  ["j3eip6c4jhrbvhf" 1] [:fixed "3s4blsft67rfqyl" 0]
  ["j655xt0tskf822" 0] [:fixed "x8b4of1h8sje2i2" 0]
@@ -35,7 +40,6 @@
  ["n0r7t26ns88d8ys" 0] [:fixed "b159qbeg66thu77" 0]
  ["nprhl8vsy4sc3op" 0] [:fixed "sng5vq4p4qodx6e" 0]
  ["nprhl8vsy4sc3op" 1] [:fixed "osz1i9fxge6z444" 0]
- ["rjx8q9l7davcbt6" 0] [:fixed "50mj15xr53us77t" 0]
  ["smt2b42fv5t1aut" 0] [:fixed "564edpwwl48b1qo" 0]
  ["smt2b42fv5t1aut" 1] [:fixed "bf2udfatx1l23rt" 0]
  ["sng5vq4p4qodx6e" 0] [:fixed "ujrazbmtp2t99wb" 0]
@@ -49,7 +53,7 @@
  ["x8b4of1h8sje2i2" 0] [:fixed "txybpn1d2bgzcx7" 0]
  ["x8b4of1h8sje2i2" 1] [:fixed "kfhvtkvgx0uf86b" 0]
  ["x8b4of1h8sje2i2" 2] [:fixed "8hjd269pf4xt3ha" 0]
- ["x8b4of1h8sje2i2" 3] [:fixed "rjx8q9l7davcbt6" 0]}
+ ["x8b4of1h8sje2i2" 3] [:fixed "fezaqdl619hkrkj" 0]}
  :nodes
 {"192f5039i8r60jh" 
 {:color 3
@@ -73,7 +77,7 @@
  :label "2.7"
  :name "max resonance"
  :outputs [""]
- :parsed [:number-widget :float "-8t8rc0" "2.457" ""]
+ :parsed [:number-widget :float "-8t8rc0" "2.7066" ""]
  :pos [292 -172]
  }
  "3nc13rqp5i7d9jx" 
@@ -149,6 +153,14 @@
  :parsed [:fn "Gadgets:Random-Seq" [:tuple [:free-var "bpm"] [:float "1"] [:number-widget :float "6tpr9e" "58" ""] [:number-widget :float "-xm12jt" "4157" ""]]]
  :pos [-12 -174]
  }
+ "83vmuabbylha6m4" 
+{:ephemeral-inputs #{"more"}
+ :inputs ["a" "b" "more" "more..."]
+ :label "*"
+ :outputs [""]
+ :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more..."]]
+ :pos [501 301]
+ }
  "8eqdzjthr2fr6dg" 
 {:color 4
  :inputs []
@@ -156,14 +168,15 @@
  :name "chord"
  :outputs [""]
  :parsed [:list [:float "-5"] [:float "2"] [:float "5"] [:float "7"] [:float "10"] [:float "15"]]
- :pos [112 294]
+ :pos [106 328]
  }
  "8hjd269pf4xt3ha" 
-{:inputs ["f0" "notes" "bpm"]
+{:color 4
+ :inputs ["f0" "notes" "bpm"]
  :label "Stab-Pad($f0 $notes $bpm)"
  :outputs [""]
  :parsed [:fn "Stab-Pad" [:tuple [:free-var "f0"] [:free-var "notes"] [:free-var "bpm"]]]
- :pos [313 382]
+ :pos [320 422]
  }
  "8rdpp51y6ls99p1" 
 {:ephemeral-inputs #{"pat"}
@@ -173,6 +186,14 @@
  :outputs [""]
  :parsed [:fn "Gadgets:Pattern-Seq" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
  :pos [-434 -157]
+ }
+ "9qp8v319a4ae746" 
+{:inputs []
+ :label "1 .o 4"
+ :name "overdrive the bass!"
+ :outputs [""]
+ :parsed [:widget "p54j1j" 0.155 {:type :dial, :skin :circular, :min [:float "1"], :max [:float "4"]}]
+ :pos [402 222]
  }
  "b159qbeg66thu77" 
 {:color 0
@@ -225,6 +246,13 @@
  :outputs [""]
  :parsed [:list [:float "1"] [:float "0"]]
  :pos [-211 293]
+ }
+ "fezaqdl619hkrkj" 
+{:inputs ["sig" "drive"]
+ :label "Overdrive($sig $drive)"
+ :outputs [""]
+ :parsed [:fn "Overdrive" [:tuple [:free-var "sig"] [:free-var "drive"]]]
+ :pos [496 365]
  }
  "j3eip6c4jhrbvhf" 
 {:ephemeral-inputs #{"pat"}
@@ -280,13 +308,6 @@
  :outputs [""]
  :parsed [:number-widget :float "rrgg0n" "19" ""]
  :pos [285 -291]
- }
- "rjx8q9l7davcbt6" 
-{:inputs ["a"]
- :label "Overdrive"
- :outputs [""]
- :parsed [:fn "Overdrive" [:tuple [:free-var "a"]]]
- :pos [473 340]
  }
  "smt2b42fv5t1aut" 
 {:color 2
