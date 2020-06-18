@@ -19,44 +19,38 @@
  :label "Filter:Resonator($sig $freq $bw)"
  :outputs [""]
  :parsed [:fn "Filter:Resonator" [:tuple [:free-var "sig"] [:free-var "freq"] [:free-var "bw"]]]
- :pos [111 177]
- }
+ :pos [111 177]}
  "1hbdg3p3l6gc086" 
 {:ephemeral-inputs #{"more" "more2"}
  :inputs ["a" "b" "more" "more2" "more..."]
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more2"] [:free-var "more..."]]
- :pos [368 160]
- }
+ :pos [368 160]}
  "3uda2i9use5w3t3" 
 {:inputs []
  :label "340"
  :outputs [""]
  :parsed [:number-widget :float "-9183oi" "689" ""]
- :pos [-36 111]
- }
+ :pos [-36 111]}
  "4qp6uxoueu2cuq8" 
 {:inputs []
  :label "2000"
  :outputs [""]
  :parsed [:number-widget :float "fp23bp" "388" ""]
- :pos [123 106]
- }
+ :pos [123 106]}
  "8pu4h09itb8x4ng" 
 {:inputs ["gate"]
  :label "Envelope:AR($gate 0 0.5)"
  :outputs [""]
  :parsed [:fn "Envelope:AR" [:tuple [:free-var "gate"] [:float "0"] [:float "0.5"]]]
- :pos [-7 -2]
- }
+ :pos [-7 -2]}
  "92fa11rz5e7f9qn" 
 {:inputs []
  :label "0.499d"
  :outputs [""]
  :parsed [:double "0.499"]
- :pos [-415 134]
- }
+ :pos [-415 134]}
  "bpr6f4eugairqo9" 
 {:inputs []
  :label "5.0"
@@ -69,27 +63,23 @@
  :label "Gen:Noise($seed)"
  :outputs [""]
  :parsed [:fn "Gen:Noise" [:tuple [:free-var "seed"]]]
- :pos [-193 138]
- }
+ :pos [-193 138]}
  "mijcghmgftjnote" 
 {:eval :destructure
  :inputs []
  :label "(gate) = arg"
  :outputs ["gate"]
  :parsed "arg"
- :pos [-479 -34]
- }
+ :pos [-479 -34]}
  "mxvl1e9sivll2r1" 
 {:inputs ["a"]
  :label "& 1"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "&" [:float "1"]]
- :pos [-209 -8]
- }
+ :pos [-209 -8]}
  "vshiean53oi72yh" 
 {:inputs ["sig"]
  :label "Control:Edge+($sig)"
  :outputs [""]
  :parsed [:fn "Control:Edge+" [:tuple [:free-var "sig"]]]
- :pos [-344 -21]
- }}}}
+ :pos [-344 -21]}}}}

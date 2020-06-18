@@ -42,76 +42,66 @@
  :label "Gadgets:Artikulator($bpm $pat...)"
  :outputs [""]
  :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [115 -92]
- }
+ :pos [115 -92]}
  "33rwcm7yg2cri2h" 
 {:color 3
  :inputs []
  :label "; generate time-varying articulation pattern"
  :outputs []
  :parsed [:comment "generate time-varying articulation pattern"]
- :pos [53 -312]
- }
+ :pos [53 -312]}
  "3702995x9c128cd" 
 {:inputs ["freq" "steps"]
  :label "Gadgets:Semitone->Freq($freq $steps)"
  :outputs [""]
  :parsed [:fn "Gadgets:Semitone->Freq" [:tuple [:free-var "freq"] [:free-var "steps"]]]
- :pos [-453 20]
- }
+ :pos [-453 20]}
  "3c73hqm9t30xib" 
 {:color 4
  :inputs []
  :label "; this trick partitions the list in 2-length vectors, which conveniently assigns consecutive notes to left and right channel."
  :outputs []
  :parsed [:comment "this trick partitions the list in 2-length vectors, which conveniently assigns consecutive notes to left and right channel."]
- :pos [39 262]
- }
+ :pos [39 262]}
  "4gf96axw33vbktw" 
 {:color 2
  :inputs []
  :label "; slow filter sweep"
  :outputs []
  :parsed [:comment "slow filter sweep"]
- :pos [142 40]
- }
+ :pos [142 40]}
  "52j1zswh9nxlcc2" 
 {:ephemeral-inputs #{"fns" "fns2"}
  :inputs ["fns" "fns2" "fns..."]
  :label "Function:Pipeline($fns...)"
  :outputs [""]
  :parsed [:fn "Function:Pipeline" [:tuple [:free-var "fns"] [:free-var "fns2"] [:free-var "fns..."]]]
- :pos [-261 114]
- }
+ :pos [-261 114]}
  "5gyraa2sw49h1h5" 
 {:inputs []
  :label "0.001"
  :outputs [""]
  :parsed [:float "0.001"]
- :pos [203 -162]
- }
+ :pos [203 -162]}
  "72yqbf6tace51uc" 
 {:inputs ["freq" "width" "waveform"]
  :label "Virtual-Analog:BLIT-Osc($freq $width $waveform)"
  :outputs [""]
  :parsed [:fn "Virtual-Analog:BLIT-Osc" [:tuple [:free-var "freq"] [:free-var "width"] [:free-var "waveform"]]]
- :pos [-239 -1]
- }
+ :pos [-239 -1]}
  "767hdt885wv12wg" 
 {:color 4
  :inputs ["func" "list"]
  :label "Apply($func $list)"
  :outputs [""]
  :parsed [:fn "Apply" [:tuple [:free-var "func"] [:free-var "list"]]]
- :pos [97 213]
- }
+ :pos [97 213]}
  "8627hfzubgjs1d7" 
 {:inputs []
  :label "1.2"
  :outputs [""]
  :parsed [:number-widget :float "-qr34v2" "3.7611" ""]
- :pos [-520 -196]
- }
+ :pos [-520 -196]}
  "98rf0pmegzhkjbb" 
 {:color 4
  :ephemeral-inputs #{"set"}
@@ -119,101 +109,88 @@
  :label "Algorithm:Partition($N $set...)"
  :outputs [""]
  :parsed [:fn "Algorithm:Partition" [:tuple [:free-var "N"] [:free-var "set"] [:free-var "set..."]]]
- :pos [48 142]
- }
+ :pos [48 142]}
  "ahf87jijhyqolw1" 
 {:color 3
  :inputs ["a"]
  :label "+ 0.5"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "+" [:float "0.5"]]
- :pos [-257 -268]
- }
+ :pos [-257 -268]}
  "bzrrgarr1wqvqr" 
 {:color 3
  :inputs ["a"]
  :label "* 0.5"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:float "0.5"]]
- :pos [-371 -268]
- }
+ :pos [-371 -268]}
  "cb09a1ek685bcdy" 
 {:inputs []
  :label "1"
  :outputs [""]
  :parsed [:float "1"]
- :pos [-247 -133]
- }
+ :pos [-247 -133]}
  "ccto4o5yx9y758t" 
 {:color 2
  :inputs []
  :label "0.1"
  :outputs [""]
  :parsed [:number-widget :float "5szsb8" "0.050738" ""]
- :pos [-55 -20]
- }
+ :pos [-55 -20]}
  "d4xdfqgn9ohe1xj" 
 {:ephemeral-inputs #{"more"}
  :inputs ["a" "b" "more" "more..."]
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more..."]]
- :pos [577 -30]
- }
+ :pos [577 -30]}
  "dla9oe4i3qo0ost" 
 {:inputs ["sig" "cutoff" "resonance"]
  :label "Filter:Highpass($sig $cutoff $resonance)"
  :outputs [""]
  :parsed [:fn "Filter:Highpass" [:tuple [:free-var "sig"] [:free-var "cutoff"] [:free-var "resonance"]]]
- :pos [409 63]
- }
+ :pos [409 63]}
  "eiwn2f42azcim5x" 
 {:color 3
  :inputs ["freq"]
  :label "Gen:Tri($freq)"
  :outputs [""]
  :parsed [:fn "Gen:Tri" [:tuple [:free-var "freq"]]]
- :pos [-471 -268]
- }
+ :pos [-471 -268]}
  "ff5hrpk4ln8vbm1" 
 {:inputs []
  :label "0.95"
  :outputs [""]
  :parsed [:float "0.95"]
- :pos [414 -69]
- }
+ :pos [414 -69]}
  "kn6xgr48g3qy5r1" 
 {:color 4
  :inputs []
  :label "#2"
  :outputs [""]
  :parsed [:invariant "2"]
- :pos [-98 171]
- }
+ :pos [-98 171]}
  "ks55dpcomfxd3hc" 
 {:color 3
  :inputs ["x"]
  :label "[2 * $x $x 0.5 * $x]"
  :outputs [""]
  :parsed [:list [:infix [:float "2"] "*" [:free-var "x"]] [:free-var "x"] [:infix [:float "0.5"] "*" [:free-var "x"]]]
- :pos [-25 -188]
- }
+ :pos [-25 -188]}
  "lm1j9okqlz9drvi" 
 {:color 2
  :inputs ["a"]
  :label "+ 3000"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "+" [:number-widget :float "i3gq82" "1394" ""]]
- :pos [273 -20]
- }
+ :pos [273 -20]}
  "mbrs2ek57d9yh1f" 
 {:ephemeral-inputs #{"set"}
  :inputs ["func" "set" "set..."]
  :label "Algorithm:Map($func $set...)"
  :outputs [""]
  :parsed [:fn "Algorithm:Map" [:tuple [:free-var "func"] [:free-var "set"] [:free-var "set..."]]]
- :pos [-104 69]
- }
+ :pos [-104 69]}
  "mcv0mr79gyldj4q" 
 {:color 0
  :eval :destructure
@@ -221,15 +198,13 @@
  :label "(f0 notes bpm) = arg"
  :outputs ["f0" "notes" "bpm"]
  :parsed "arg"
- :pos [-676 -135]
- }
+ :pos [-676 -135]}
  "n9ecmvc9ih4qz5n" 
 {:inputs []
  :label "0.1"
  :outputs [""]
  :parsed [:float "0.1"]
- :pos [328 -180]
- }
+ :pos [328 -180]}
  "ogbdjd6fn4p51id" 
 {:color 4
  :ephemeral-inputs #{"set"}
@@ -237,66 +212,57 @@
  :label "Algorithm:Map($func $set...)"
  :outputs [""]
  :parsed [:fn "Algorithm:Map" [:tuple [:free-var "func"] [:free-var "set"] [:free-var "set..."]]]
- :pos [203 185]
- }
+ :pos [203 185]}
  "pgjgwv2ubtid8i4" 
 {:ephemeral-inputs #{"numbers"}
  :inputs ["numbers" "numbers..."]
  :label "Average($numbers...)"
  :outputs [""]
  :parsed [:fn "Average" [:tuple [:free-var "numbers"] [:free-var "numbers..."]]]
- :pos [314 179]
- }
+ :pos [314 179]}
  "pr9aovbznnga04p" 
 {:color 4
  :inputs ["elements"]
  :label "Vector:Cons($elements)"
  :outputs [""]
  :parsed [:fn "Vector:Cons" [:tuple [:free-var "elements"]]]
- :pos [-4 214]
- }
+ :pos [-4 214]}
  "r6pp0gmihaiyyi0" 
 {:color 2
  :inputs ["freq"]
  :label "Gen:Tri($freq)"
  :outputs [""]
  :parsed [:fn "Gen:Tri" [:tuple [:free-var "freq"]]]
- :pos [54 -20]
- }
+ :pos [54 -20]}
  "retd4ittm1u8b8r" 
 {:inputs ["gate" "attack" "release"]
  :label "Envelope:AR($gate $attack $release)"
  :outputs [""]
  :parsed [:fn "Envelope:AR" [:tuple [:free-var "gate"] [:free-var "attack"] [:free-var "release"]]]
- :pos [280 -95]
- }
+ :pos [280 -95]}
  "t8i64toua7qh553" 
 {:color 2
  :inputs ["a"]
  :label "* 2000"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:number-widget :float "o5o2ts" "1216" ""]]
- :pos [154 -20]
- }
+ :pos [154 -20]}
  "ueshmtqvk87ca4g" 
 {:inputs []
  :label "0.3"
  :outputs [""]
  :parsed [:float "0.3"]
- :pos [528 -179]
- }
+ :pos [528 -179]}
  "vs65im1wps348ef" 
 {:color 3
  :inputs []
  :label "0.04"
  :outputs [""]
  :parsed [:float "0.04"]
- :pos [-585 -268]
- }
+ :pos [-585 -268]}
  "z9jei122xfal2l9" 
 {:inputs ["freq"]
  :label "Gen:Phasor($freq)"
  :outputs [""]
  :parsed [:fn "Gen:Phasor" [:tuple [:free-var "freq"]]]
- :pos [-411 -196]
- }}}}
+ :pos [-411 -196]}}}}

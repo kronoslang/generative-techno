@@ -23,73 +23,63 @@
  :name "kick envelope"
  :outputs [""]
  :parsed [:fn "Envelope:AR" [:tuple [:free-var "gate"] [:float "0"] [:number-widget :float "-1m9yb0" "0.28709" ""]]]
- :pos [-239 -41]
- }
+ :pos [-239 -41]}
  "62nfxg7wuxwldf4" 
 {:ephemeral-inputs #{"more" "more2" "more3" "more4"}
  :inputs ["a" "b" "more" "more2" "more3" "more4" "more..."]
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more2"] [:free-var "more3"] [:free-var "more4"] [:free-var "more..."]]
- :pos [-81 76]
- }
+ :pos [-81 76]}
  "8890hi2m1vd26q" 
 {:inputs ["freq"]
  :label "Gen:Tri($freq)"
  :outputs [""]
  :parsed [:fn "Gen:Tri" [:tuple [:free-var "freq"]]]
- :pos [99 77]
- }
+ :pos [99 77]}
  "88afwrfcpf872n6" 
 {:inputs ["sig"]
  :label "Control:Edge+($sig)"
  :outputs [""]
  :parsed [:fn "Control:Edge+" [:tuple [:free-var "sig"]]]
- :pos [-342 -168]
- }
+ :pos [-342 -168]}
  "c2x9g17m3ochz" 
 {:inputs []
  :label "8"
  :name "kick drive"
  :outputs [""]
  :parsed [:number-widget :float "-l9be6i" "25" ""]
- :pos [83 -97]
- }
+ :pos [83 -97]}
  "csm4tf90kvmssjo" 
 {:eval :destructure
  :inputs []
  :label "(gate) = arg"
  :outputs ["gate"]
  :parsed "arg"
- :pos [-490 -59]
- }
+ :pos [-490 -59]}
  "ec6384p25jtwrf" 
 {:ephemeral-inputs #{"more"}
  :inputs ["a" "b" "more" "more..."]
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more..."]]
- :pos [244 77]
- }
+ :pos [244 77]}
  "x5c8vwyms47p5qg" 
 {:inputs ["a"]
  :label "& 1"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "&" [:float "1"]]
- :pos [-207 -155]
- }
+ :pos [-207 -155]}
  "xebzw1ihfifnfpw" 
 {:inputs []
  :label "300"
  :name "kick freq"
  :outputs [""]
  :parsed [:number-widget :float "ieappq" "201" ""]
- :pos [-96 -126]
- }
+ :pos [-96 -126]}
  "xipb57t8iw64gki" 
 {:inputs ["w"]
  :label "Approx:Tanh($w)"
  :outputs [""]
  :parsed [:fn "Approx:Tanh" [:tuple [:free-var "w"]]]
- :pos [390 77]
- }}}}
+ :pos [390 77]}}}}

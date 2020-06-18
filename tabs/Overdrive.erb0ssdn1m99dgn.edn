@@ -14,41 +14,35 @@
  :label "500"
  :outputs [""]
  :parsed [:number-widget :float "bw3czr" "77" ""]
- :pos [14 -13]
- }
+ :pos [14 -13]}
  "9i1ka2b6ccs21r" 
 {:inputs ["sig" "freq" "bw"]
  :label "Filter:Resonator($sig $freq $bw)"
  :outputs [""]
  :parsed [:fn "Filter:Resonator" [:tuple [:free-var "sig"] [:free-var "freq"] [:free-var "bw"]]]
- :pos [146 43]
- }
+ :pos [146 43]}
  "j46dwwfj36c7ji" 
 {:eval :destructure
  :inputs []
  :label "(sig drive) = arg"
  :outputs ["sig" "drive"]
  :parsed "arg"
- :pos [-284 -102]
- }
+ :pos [-284 -102]}
  "pj3a0aai9bz0n78" 
 {:inputs []
  :label "900"
  :outputs [""]
  :parsed [:number-widget :float "73x7o2" "2318" ""]
- :pos [89 -65]
- }
+ :pos [89 -65]}
  "w3ib84zf67yj6v0" 
 {:inputs ["w"]
  :label "Approx:Tanh($w)"
  :outputs [""]
  :parsed [:fn "Approx:Tanh" [:tuple [:free-var "w"]]]
- :pos [2 43]
- }
+ :pos [2 43]}
  "y9zdu8sz850a08k" 
 {:inputs ["a" "b" "more..."]
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more..."]]
- :pos [-149 -45]
- }}}}
+ :pos [-149 -45]}}}}

@@ -78,7 +78,7 @@
 {:inputs []
  :label "0.24"
  :outputs [""]
- :parsed [:number-widget :float "476pfi" "0.059452" ""]
+ :parsed [:number-widget :float "476pfi" "0.29084" ""]
  :pos [-281 -243]
  }
  "mcsb5795k79n0h3" 

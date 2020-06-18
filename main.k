@@ -31,7 +31,7 @@ BassLine(gate freq steps a res) {
 (n4v4rie86zd25ekv-0) = (nbxh9ih9wk7p63id-3 * nrn47z0fvripg66s-0)
 (n8h48h499osgk03r-0) = Virtual-Analog:Moog-VCF(n3pdkwkqjqe2o9fj-0 n4v4rie86zd25ekv-0 nbxh9ih9wk7p63id-4)
 (nmcsb5795k79n0h3-0) = #-1
-(ndme8gzb8inrc5zg-0) = 0.059452
+(ndme8gzb8inrc5zg-0) = 0.29084
 (n1qja2aincr679pm-0) = Gadgets:Semitone->Freq(nbxh9ih9wk7p63id-1 nbxh9ih9wk7p63id-2)
 (nbxh9ih9wk7p63id-0 nbxh9ih9wk7p63id-1 nbxh9ih9wk7p63id-2 nbxh9ih9wk7p63id-3 nbxh9ih9wk7p63id-4) = arg
 (np7ye36cug3fh4ny-0) = Envelope:AR(nbxh9ih9wk7p63id-0 0.00231 0.14242)
