@@ -61,7 +61,7 @@
  :label "Gadgets:Artikulator($bpm $pat...)"
  :outputs [""]
  :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [80 563]
+ :pos [211 440]
  }
  "1lh4z9y2g1npd0k" 
 {:color 3
@@ -69,7 +69,7 @@
  :label "; # Generative Synth Pop #\n\n\nThis patch demonstrates using functions imported from other workspaces.\n\n\nThis one makes use of [kronoslang/virtual-analog](https://github.com/kronoslang/virtual-analog) and [kronoslang/gadgets](https://github.com/kronoslang/gadgets)\n\n\nYou can import stuff with `Cloud > Use Packages`"
  :outputs []
  :parsed [:comment "# Generative Synth Pop #\n\n\nThis patch demonstrates using functions imported from other workspaces.\n\n\nThis one makes use of [kronoslang/virtual-analog](https://github.com/kronoslang/virtual-analog) and [kronoslang/gadgets](https://github.com/kronoslang/gadgets)\n\n\nYou can import stuff with `Cloud > Use Packages`"]
- :pos [-206 -614]
+ :pos [-75 -737]
  }
  "27trtggdbhxr1x" 
 {:inputs []
@@ -77,7 +77,7 @@
  :name "max resonance"
  :outputs [""]
  :parsed [:number-widget :float "-8t8rc0" "2.7066" ""]
- :pos [292 -172]
+ :pos [231 -497]
  }
  "3nc13rqp5i7d9jx" 
 {:ephemeral-inputs #{"pat"}
@@ -86,7 +86,7 @@
  :name ""
  :outputs [""]
  :parsed [:fn "Gadgets:Pattern-Seq" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [-196 4]
+ :pos [-65 -119]
  }
  "3o3cow3pqufi2wb" 
 {:color 2
@@ -94,7 +94,7 @@
  :label "; you can look at the synth voices by browsing through the tabs in this workspace."
  :outputs []
  :parsed [:comment "you can look at the synth voices by browsing through the tabs in this workspace."]
- :pos [-578 441]
+ :pos [-447 318]
  }
  "3s4blsft67rfqyl" 
 {:inputs []
@@ -102,7 +102,7 @@
  :name "bassline phrasing"
  :outputs [""]
  :parsed [:list [:float "0.3"] [:float "0.3"] [:float "0.6"] [:float "0.2"] [:float "0.1"] [:float "1"]]
- :pos [-365 105]
+ :pos [-234 -18]
  }
  "4ik1ehc84tbgow9" 
 {:color 3
@@ -110,14 +110,14 @@
  :label "[0 1]"
  :outputs [""]
  :parsed [:list [:float "0"] [:float "1"]]
- :pos [-87 498]
+ :pos [44 375]
  }
  "50mj15xr53us77t" 
 {:inputs ["gate" "freq" "steps" "a" "res"]
  :label "BassLine"
  :outputs [""]
  :parsed [:fn "BassLine" [:tuple [:free-var "gate"] [:free-var "freq"] [:free-var "steps"] [:free-var "a"] [:free-var "res"]]]
- :pos [226 198]
+ :pos [357 75]
  }
  "564edpwwl48b1qo" 
 {:color 0
@@ -126,14 +126,14 @@
  :name "tempo"
  :outputs [""]
  :parsed [:number-widget :float "-e7y0mu" "118" ""]
- :pos [-700 -311]
+ :pos [-569 -434]
  }
  "566laldp5y2s9fh" 
 {:inputs ["sig" "rate"]
  :label "Control:Smooth($sig $rate)"
  :outputs [""]
  :parsed [:fn "Control:Smooth" [:tuple [:free-var "sig"] [:free-var "rate"]]]
- :pos [243 -43]
+ :pos [381 -208]
  }
  "6if1o9usq2hgvaz" 
 {:color 2
@@ -142,7 +142,7 @@
  :label "Gadgets:Artikulator($bpm $pat...)"
  :outputs [""]
  :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [26 428]
+ :pos [157 305]
  }
  "6xwr0vsenlcfd7f" 
 {:inputs ["bpm"]
@@ -150,7 +150,7 @@
  :name "bassline cutoff"
  :outputs [""]
  :parsed [:fn "Gadgets:Random-Seq" [:tuple [:free-var "bpm"] [:float "1"] [:number-widget :float "6tpr9e" "58" ""] [:number-widget :float "-xm12jt" "4157" ""]]]
- :pos [-12 -174]
+ :pos [-22 -308]
  }
  "83vmuabbylha6m4" 
 {:ephemeral-inputs #{"more"}
@@ -158,7 +158,7 @@
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more..."]]
- :pos [501 301]
+ :pos [555 182]
  }
  "8eqdzjthr2fr6dg" 
 {:color 4
@@ -167,7 +167,7 @@
  :name "chord"
  :outputs [""]
  :parsed [:list [:float "-5"] [:float "2"] [:float "5"] [:float "7"] [:float "10"] [:float "15"]]
- :pos [106 328]
+ :pos [237 205]
  }
  "8hjd269pf4xt3ha" 
 {:color 4
@@ -175,7 +175,7 @@
  :label "Stab-Pad($f0 $notes $bpm)"
  :outputs [""]
  :parsed [:fn "Stab-Pad" [:tuple [:free-var "f0"] [:free-var "notes"] [:free-var "bpm"]]]
- :pos [320 422]
+ :pos [451 299]
  }
  "8rdpp51y6ls99p1" 
 {:ephemeral-inputs #{"pat"}
@@ -184,15 +184,16 @@
  :name ""
  :outputs [""]
  :parsed [:fn "Gadgets:Pattern-Seq" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [-434 -157]
+ :pos [-321 -273]
  }
  "9qp8v319a4ae746" 
-{:inputs []
+{:color 3
+ :inputs []
  :label "1 .o 4"
  :name "overdrive the bass!"
  :outputs [""]
  :parsed [:widget "p54j1j" 0.05999999999999994 {:type :dial, :skin :circular, :min [:float "1"], :max [:float "4"]}]
- :pos [402 222]
+ :pos [458 -87]
  }
  "b159qbeg66thu77" 
 {:color 0
@@ -201,7 +202,7 @@
  :name "pitch"
  :outputs [""]
  :parsed [:number-widget :float "g4q77z" "440" ""]
- :pos [-590 -311]
+ :pos [-459 -434]
  }
  "b2vvjkw7fbq63b2" 
 {:color 2
@@ -209,7 +210,7 @@
  :label "/ 2"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "/" [:float "2"]]
- :pos [-482 370]
+ :pos [-351 247]
  }
  "bf2udfatx1l23rt" 
 {:cable-midpoints 
@@ -220,7 +221,7 @@
  :label "Gadgets:Pattern-Seq($bpm $pat...)"
  :outputs [""]
  :parsed [:fn "Gadgets:Pattern-Seq" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [-326 370]
+ :pos [-195 247]
  }
  "c3o52d2icbh9549" 
 {:color 0
@@ -228,7 +229,7 @@
  :label "* 4"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:float "4"]]
- :pos [-497 -382]
+ :pos [-366 -505]
  }
  "da1rajtmsc1gizy" 
 {:inputs []
@@ -236,7 +237,7 @@
  :name "seq for arpeggiator range"
  :outputs [""]
  :parsed [:list [:number-widget :float "-5e0zzp" "2" ""] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "3"] [:float "3"] [:float "4"] [:float "4"] [:number-widget :float "-adz9p" "5" ""] [:number-widget :float "8l90al" "7" ""]]
- :pos [-615 -60]
+ :pos [-484 -183]
  }
  "e5ddqcnfmyv79ye" 
 {:color 2
@@ -244,14 +245,14 @@
  :label "[1 0]"
  :outputs [""]
  :parsed [:list [:float "1"] [:float "0"]]
- :pos [-211 293]
+ :pos [-80 170]
  }
  "fezaqdl619hkrkj" 
 {:inputs ["sig" "drive"]
  :label "Overdrive($sig $drive)"
  :outputs [""]
  :parsed [:fn "Overdrive" [:tuple [:free-var "sig"] [:free-var "drive"]]]
- :pos [496 365]
+ :pos [572 242]
  }
  "j3eip6c4jhrbvhf" 
 {:ephemeral-inputs #{"pat"}
@@ -259,7 +260,7 @@
  :label "Gadgets:Artikulator($bpm $pat...)"
  :outputs [""]
  :parsed [:fn "Gadgets:Artikulator" [:tuple [:free-var "bpm"] [:free-var "pat"] [:free-var "pat..."]]]
- :pos [-43 169]
+ :pos [88 46]
  }
  "j655xt0tskf822" 
 {:color 3
@@ -268,7 +269,7 @@
  :name "PLAY HERE!"
  :outputs ["thru"]
  :parsed [:playback [:free-var "sig"]]
- :pos [505 140]
+ :pos [636 17]
  }
  "kfhvtkvgx0uf86b" 
 {:color 2
@@ -276,7 +277,7 @@
  :label "Kick"
  :outputs [""]
  :parsed [:fn "Kick" [:tuple [:free-var "gate"]]]
- :pos [241 500]
+ :pos [372 377]
  }
  "muz8nd10hoo121y" 
 {:ephemeral-inputs #{"notes"}
@@ -284,21 +285,21 @@
  :label "Gadgets:Arpeggiator($bpm $octaves $notes...)"
  :outputs [""]
  :parsed [:fn "Gadgets:Arpeggiator" [:tuple [:free-var "bpm"] [:free-var "octaves"] [:free-var "notes"] [:free-var "notes..."]]]
- :pos [32 53]
+ :pos [278 -72]
  }
  "n0r7t26ns88d8ys" 
 {:inputs ["a"]
  :label "/ 16"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "/" [:float "16"]]
- :pos [80 108]
+ :pos [211 -15]
  }
  "nprhl8vsy4sc3op" 
 {:inputs ["sig" "rate"]
  :label "Control:Smooth($sig $rate)"
  :outputs [""]
  :parsed [:fn "Control:Smooth" [:tuple [:free-var "sig"] [:free-var "rate"]]]
- :pos [555 -20]
+ :pos [501 -208]
  }
  "osz1i9fxge6z444" 
 {:inputs []
@@ -306,7 +307,7 @@
  :name "bassline filter speed"
  :outputs [""]
  :parsed [:number-widget :float "rrgg0n" "19" ""]
- :pos [285 -291]
+ :pos [312 -284]
  }
  "smt2b42fv5t1aut" 
 {:color 2
@@ -314,7 +315,7 @@
  :label "*"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more..."]]
- :pos [-117 427]
+ :pos [14 304]
  }
  "sng5vq4p4qodx6e" 
 {:ephemeral-inputs #{"more" "more2" "more3"}
@@ -323,7 +324,7 @@
  :name "resonance distribution"
  :outputs [""]
  :parsed [:infix [:free-var "a"] "*" [:free-var "b"] [:free-var "more"] [:free-var "more2"] [:free-var "more3"] [:free-var "more..."]]
- :pos [405 -74]
+ :pos [294 -369]
  }
  "t3ye32cy8q83p8j" 
 {:inputs []
@@ -331,7 +332,7 @@
  :name "vary some notes in the arp pattern"
  :outputs [""]
  :parsed [:list [:float "5"] [:float "9"] [:number-widget :float "-ahnlgb" "3" ""] [:float "2"] [:float "10"]]
- :pos [-680 -211]
+ :pos [-549 -334]
  }
  "txybpn1d2bgzcx7" 
 {:color 3
@@ -339,7 +340,7 @@
  :label "Snare"
  :outputs [""]
  :parsed [:fn "Snare" [:tuple [:free-var "gate"]]]
- :pos [241 565]
+ :pos [372 442]
  }
  "ujrazbmtp2t99wb" 
 {:inputs ["bpm"]
@@ -347,7 +348,7 @@
  :name "bassline pwm and resonance"
  :outputs [""]
  :parsed [:fn "Gadgets:Random-Seq" [:tuple [:free-var "bpm"] [:float "2"] [:float "0"] [:number-widget :float "-b4ko64" "1" ""]]]
- :pos [-7 -258]
+ :pos [-22 -390]
  }
  "vlq2uy17byoy3lf" 
 {:inputs ["x"]
@@ -355,7 +356,7 @@
  :name "arpeggio"
  :outputs [""]
  :parsed [:list [:float "0"] [:float "3"] [:float "5"] [:free-var "x"] [:float "7"] [:float "10"] [:infix [:free-var "x"] "+" [:float "12"]] [:float "12"]]
- :pos [-79 -86]
+ :pos [52 -209]
  }
  "x162h1c12ak92nf" 
 {:color 2
@@ -364,7 +365,7 @@
  :name "kickdrum subdivisions"
  :outputs [""]
  :parsed [:list [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:float "2"] [:number-widget :float "xpn4q9" "2" ""] [:number-widget :float "kmf4nv" "2" ""] [:float "2"] [:float "2"] [:float "2"] [:float "1"] [:float "1"] [:float "4"] [:number-widget :float "lhaj4z" "6" ""]]
- :pos [-672 256]
+ :pos [-541 133]
  }
  "x8b4of1h8sje2i2" 
 {:color 0
@@ -374,7 +375,7 @@
  :name "mix"
  :outputs [""]
  :parsed [:fn "Average" [:tuple [:free-var "numbers4"] [:free-var "numbers2"] [:free-var "numbers"] [:free-var "numbers3"] [:free-var "numbers..."]]]
- :pos [475 561]
+ :pos [545 442]
  }}
  :scale 0.8174794837052244
  :scroll [0 0]}}
